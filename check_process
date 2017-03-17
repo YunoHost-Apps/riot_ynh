@@ -3,7 +3,7 @@
 # Commentaire ignoré
     ; Manifest
         domain="$DOMAIN"    (DOMAIN)
-        path="$PATH"    (PATH)
+        path="/path"    (PATH)
         default_home_server="matrix.org"
         is_public=1 (PUBLIC|public=1|private=0)
     ; Checks
