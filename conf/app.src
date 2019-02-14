@@ -1,11 +1,5 @@
-SOURCE_URL=https://github.com/vector-im/riot-web/releases/download/v0.17.9/riot-v0.17.9.tar.gz
-SOURCE_SUM=61f1b37283e8f1d1b29e8e2ed9b2910ea388275009da8ae8617f770f1631e6cc
-# (Optional) Program to check the integrity (sha256sum, md5sum...)
-# default: sha256
+SOURCE_URL=https://github.com/vector-im/riot-web/releases/download/v1.0.0/riot-v1.0.0.tar.gz
+SOURCE_SUM=f1b0187133037401530bb698a6536d184a551c20ab9f145af010398e1133d9e6
 SOURCE_SUM_PRG=sha256sum
-# (Optional) Archive format
-# default: tar.gz
 SOURCE_FORMAT=tar.gz
-# (Optional) Put false if sources are directly in the archive root
-# default: true
 SOURCE_IN_SUBDIR=true
