@@ -45,7 +45,7 @@
 				"name": "default_home_server",
 				"type": "string",
 				"ask": {
-					"en": "Chose a default home server",
+					"en": "Choose a default home server",
 					"fr": "Choisissez un serveur par défault"
 				},
 				"example": "my-own-homeserver.tld",
@@ -55,12 +55,12 @@
 				"name": "is_public",
 				"type": "boolean",
 				"ask": {
-					"en": "Is it a public app ?",
-					"fr": "Est-ce une app publique ?"
+					"en": "Is it a public application?",
+					"fr": "Est-ce une application publique ?"
                 },
                 "help": { 
-					"en": "A public apps mean that everybody can access to this app. Note that this app just provide a some files (html, javascript, pictures, etc).",
-					"fr": "Une app publique signifie que n'importe qui peut accéder à cette application. Notez que cette application fournis juste des fichier (html, javascript, images, etc)."
+					"en": "A public application means that anyone can access it. Note that this application provides just files (html, javascript, images, etc.)",
+					"fr": "Une application publique signifie que n'importe qui peut y accéder. Notez que cette application ne fournit que des fichiers (html, javascript, images, etc.)"
 				},
 				"default": false
 			}
