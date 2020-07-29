@@ -29,7 +29,12 @@ default_home_server=$(ynh_app_setting_get --app $app --key default_home_server)
 # Get source and install in source dir
 ynh_script_progression --message="Upgrading source files..." --weight=6
 ynh_secure_remove --file=$final_path
-install_source
+mkdir -p $final_path
+cat > $final_path/index.html << EOF
+<h1>Riot have been migrated to 'Element'.</h1>
+<p>Please migrate your app to element as described at this following link:<br />
+<a href="https://github.com/YunoHost-Apps/element_ynh/tree/testing#migration-from-old-app-name-riot">https://github.com/YunoHost-Apps/element_ynh/tree/testing#migration-from-old-app-name-riot</a></p>
+EOF
 
 ynh_script_progression --message="Configuring application..."
 
