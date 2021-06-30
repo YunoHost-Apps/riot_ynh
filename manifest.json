@@ -10,7 +10,7 @@
 		"fr": "Un client web pour matrix"
 	},
 	"version": "1.7.31~ynh1",
-	"url": "https://element.im",
+	"url": "https://element.io",
 	"license": "Apache-2.0",
 	"maintainer": {
 		"name": "Josué Tille",
